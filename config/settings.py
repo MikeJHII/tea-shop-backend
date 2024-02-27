@@ -119,7 +119,7 @@ DATABASES = {
     # }
 
 
-    'default': dj_database_url('postgres://tea_shop_user:qKCRXg15r4kkYc66eV7NmfXB3UJvqtG0@dpg-cnepvm6n7f5s73e2b260-a.oregon-postgres.render.com/tea_shop')
+    'default': dj_database_url.parse('postgres://tea_shop_user:qKCRXg15r4kkYc66eV7NmfXB3UJvqtG0@dpg-cnepvm6n7f5s73e2b260-a.oregon-postgres.render.com/tea_shop')
 }
 
 
