@@ -114,13 +114,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 
 
-    'default': dj_database_url.parse('postgres://tea_shop_user:qKCRXg15r4kkYc66eV7NmfXB3UJvqtG0@dpg-cnepvm6n7f5s73e2b260-a.oregon-postgres.render.com/tea_shop')
+    # 'default': dj_database_url.parse('postgres://tea_shop_user:qKCRXg15r4kkYc66eV7NmfXB3UJvqtG0@dpg-cnepvm6n7f5s73e2b260-a.oregon-postgres.render.com/tea_shop')
 }
 
 
